@@ -44,9 +44,9 @@ return(
                 </form>
               </div>
               <div className="content2">
-                <div className="img"></div>
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div className="img"></div>
             </div>
             </div>
       </div>

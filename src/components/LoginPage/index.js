@@ -37,16 +37,18 @@ const LoginPage = (props) => {
             <div className="content1">
                 <header>login</header>
                 <form action="/" method="post" onSubmit={onLoginData}>
-                <input className="username" type="text" name="username" placeholder="username" ></input>
-                <input className="password" type="password" name="password" placeholder="password"></input>
-                <input className="submit" type="submit" value="submit"></input>
+                    <input className="username" type="text" name="username" placeholder="username" ></input>
+                    <input className="password" type="password" name="password" placeholder="password"></input>
+                    <input className="submit" type="submit" value="submit"></input>
                 </form>
-                <a href="/signup" onClick={onSignPage}>Sign Up</a>      
+                <div className="taga">
+                    <input type="button" value="Sign Up" onClick={onSignPage}></input>      
+                </div>
             </div>
             <div className="content2">
-                <div className="img"></div>
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div className="img"></div>
             </div>
         </div>
     </div>

@@ -20,12 +20,15 @@ const LoginOn = (props) => {
             <div className="content1">
                 <h1>Welcome {props.userName}</h1>
                 <p>Click the button below to <span>logout</span></p>
-                <a href="/signup" onClick={onLoginPage}>Logout</a> 
+                <div className="taga">
+                  <input type="button" value="Logout" onClick={onLoginPage}></input> 
+                </div>
             </div>
             <div className="content2">
-                <div className="img"></div>
-                <h3>username:{props.userName}</h3>
-                <p>email:{props.eMail}</p>
+                <div className="img">
+                  <h3>username:{props.userName}</h3>
+                  <p>email:{props.eMail}</p>   
+                </div>
             </div>
         </div>
     </div>

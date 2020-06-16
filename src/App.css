@@ -4,7 +4,20 @@
 }
 
 .App{
-  background: #edeef0;
+  background: url(./img/universe.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 750px;
+}
+
+@media(max-width: 1200px){
+  *{
+    font-size: 90%;
+  }
+
+
+  h3{
+    font-size: 200%;
+  }
 }

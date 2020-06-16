@@ -1,65 +1,61 @@
 .container1{
     position: absolute;
-    width: 800px;
-    height: 400px;
-    top: 16%;
-    left: 23%;
-    padding: 30px;
+    width: 100%;
+    height: 25rem;
+    top: 10rem;
 }
 
 .container1 .box1{
     display: flex;
+    margin-left: 260px;
+    margin-right: 260px;
 }
 
 .container1 .content1{
-    background: #041a3d;
-    width: 50%;
-    height: 400px;
+    background: rgba(55, 55, 155, 0.4);
+    width: 100%;
+    height: 25rem;
     border-radius: 10px;
 }
 
 .container1 .content1 header{
     color: #fff;
-    font-size: 80px;
+    padding-left: 1rem;
+    font-size: 5rem;
     font-weight: bold;
-    transition: 1s;
-}
-
-.container1 .content1 header:hover{
-    transform: translateX(50%);
 }
 
 .container1 .content1 form{
-    margin-left: 80px;
+    margin-left: 3rem;
+    margin-right: 3rem;
     border-top: 2px solid #fff;
     display: flex;
     flex-direction: column;
-    padding-left: 5%;
 }
 
 .container1 .content1 form input{
     border-radius: 5px;
     border: 1px solid #fff;
-    margin-top: 25px;
-    width: 210px;
-    height: 35px;
+    margin-top: 1.5rem;
+    width: 90%;
+    height: 2.5rem;
 }
 
 .container1 .content1 form input[type=text]{
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 .container1 .content1 form input[type=password]{
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 
 .username{
     background-image: url(../../img/Username_2-32.png);
-    background-position: top left;
+    background-position: left;
     background-repeat: no-repeat;
 }
 .password{
     background-image: url(../../img/Password-32.png);
-    background-position: top left;
+    background-position: left;
     background-repeat: no-repeat;
 }
 
@@ -67,51 +63,88 @@
     background: #041a3d;
     border: 1px solid #fff;
     color: #fff;
-    font-size: 20px;
-    width: 250px;
+    font-size: 1.3rem;
+    height: 2.7rem;
+    width: 101%;
 }
 .container1 .content1 form .submit:hover{
+    cursor: pointer;
     background: #fff;
     color: #041a3d;
     font-weight: 700;
 }
 
-.container1 .content1 a{
+.container1 .content1 .taga{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+.container1 .content1 .taga input{
     position: relative;
-    top: 50px;
-    left: 250px;
-    padding: 10px;
+    width: 101%;
+    height: 2.5rem;
     border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0);
     border-radius: 5px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #fff;
 }
 
-.container1 .content1 a:hover{
+.container1 .content1 .taga input:hover{
+    cursor: pointer;
     background: #fff;
     color: #333;
     font-weight: 800;
 }
 
 .container1 .content2{
-    width: 50%;
+    width: 100%;
     text-align: center;
-    background: #fff;
+    background: rgba(55, 255, 255, 0.1);
     border-radius: 10px;
 }
 
 .container1 .content2 .img{
-    width: 100%;
-    height: 247px;
-    background: #b7cae8;
+    position: relative;
+    top: 6.5rem;
+    left: 1%;
+    width: 98%;
+    height: 10rem;
+    background: url(../../img/silhouette.jpg);
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
+    opacity: 0.5;
 }
 
 .container1 .content2 h3{
-    padding-top: 10px;
+    padding-top: 0.8rem;
 }
 
 .container1 .content2 p{
-    padding-top: 10px;
+    padding-top: 0.8rem;
+    height: 5rem;
+    font-size: 1rem;
+}
+@media(max-width: 1110px){
+    .container1{
+        top: 5rem;
+    }
+
+
+    .container1 .box1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 260px;
+        margin-right: 260px;
+    }
+    
+    .container1 .content2{
+        height: 20rem;
+    }
+    .container1 .content2 .img{
+        top: 1.5rem;
+    }
 }
