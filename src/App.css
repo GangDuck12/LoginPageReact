@@ -4,15 +4,21 @@
 }
 
 .App{
+  width: 100%;
+  height: 100%;
+}
+
+.background-img{
+  position: absolute;
   background: url(./img/universe.jpg);
   background-size: cover;
   background-position: center;
+  height: 100%;
   width: 100%;
-  height: 750px;
 }
 
 @media(max-width: 770px){
   .App{
-    height: 1000px;
+    height: 100%;
   }
 }

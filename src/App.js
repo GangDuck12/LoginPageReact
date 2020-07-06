@@ -82,6 +82,7 @@ function App() {
   return (
     // <Router>
       <div className="App">
+        <div className="background-img"></div>
         {_contents}
         {/* <Route exact path="/" component={LoginPage} />
         <Route path="/signup" component={SingUp} /> */}
