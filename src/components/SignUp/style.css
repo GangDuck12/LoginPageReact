@@ -154,21 +154,40 @@
 
 }
 @media(max-width: 512px){
+    .container2{
+        height: 100%;
+    }
     .container2 .box2{
         margin-left: 40px;
         margin-right: 40px;
     }
-    
-    .container2 .content2{
+    .container2 .content1{
         height: 280px;
     }
+    .container2 .content2{
+        position: relative;
+        padding: 1%;
+        height: 120px;
+        background: url(../../img/night2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .container2 .content2 h3{
+        color: #ffffff;
+        padding-top: 0.5rem;
+    }
     .container2 .content2 p{
+        padding-top: 0.5rem;
         font-size: 0.8rem;
         height: 6.5em;
+        color: #ffffff;
     }
 
     .container2 .content2 .img{
         top: 0;
+        background: rgba(0, 0, 0, 0.1);
+        position: absolute;
+        height: 100%;
     }
     
     .container2 .content1 header{

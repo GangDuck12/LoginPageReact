@@ -135,17 +135,24 @@
 @media(max-width: 512px){
     .container3{
         top: 3rem;
+        height: 100%;
     }
-
     .container3 .box3{
         margin-left: 40px;
         margin-right: 40px;
     }
     
     .container3 .content2{
-        height: 21rem;
+        height: 120px;
+        position: relative;
+        background: url(../../img/night.jpg);
+        background-size: cover;
+        background-position: center;
     }
     .container3 .content2 .img{
-        top: 2.5rem;
+        top: 0;
+        position: absolute;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
     }
 }

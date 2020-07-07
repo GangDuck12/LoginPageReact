@@ -185,21 +185,39 @@
     }
 }
 @media(max-width: 512px){
-
+    .container1{
+        height: 100%;
+    }
     .container1 .box1{
         margin-left: 40px;
         margin-right: 40px;
+    }  
+    .container1 .content1{
+        height: 280px;
     }
     
     .container1 .content2{
-        height: 280px;
+        position: relative;
+        height: 120px;
+        padding: 1%;
+        background: url(../../img/silhouette.jpg);
+        background-position: center;
+        background-size: cover;
     }
+    .container1 .content2 h3{
+        color: #ffffff;
+    }
+
     .container1 .content2 p{
         height: 6.5em;
         font-size: 0.8rem;
+        color: #ffffff;
     }
     .container1 .content2 .img{
-        top: 0rem;
+        background: rgba(0, 0, 0, 0.1);
+        position: absolute;
+        height: 100%;
+        top: 0;
     }
     
     .container1 .content1 header{
