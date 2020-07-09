@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de5ba9bbcc2bec3cf850dd35d4c8fca8",
+    "revision": "0cec908e78797405326b8a0836e70942",
     "url": "/LoginPageReact/index.html"
   },
   {
