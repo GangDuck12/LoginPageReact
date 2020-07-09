@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/LoginPageReact/static/css/main.a181283d.chunk.css",
+    "main.js": "/LoginPageReact/static/js/main.faa97f33.chunk.js",
+    "main.js.map": "/LoginPageReact/static/js/main.faa97f33.chunk.js.map",
+    "runtime-main.js": "/LoginPageReact/static/js/runtime-main.5665334e.js",
+    "runtime-main.js.map": "/LoginPageReact/static/js/runtime-main.5665334e.js.map",
+    "static/js/2.8488a01c.chunk.js": "/LoginPageReact/static/js/2.8488a01c.chunk.js",
+    "static/js/2.8488a01c.chunk.js.map": "/LoginPageReact/static/js/2.8488a01c.chunk.js.map",
+    "index.html": "/LoginPageReact/index.html",
+    "precache-manifest.84c8c9f8400869f930d4f89c29db01d8.js": "/LoginPageReact/precache-manifest.84c8c9f8400869f930d4f89c29db01d8.js",
+    "service-worker.js": "/LoginPageReact/service-worker.js",
+    "static/css/main.a181283d.chunk.css.map": "/LoginPageReact/static/css/main.a181283d.chunk.css.map",
+    "static/js/2.8488a01c.chunk.js.LICENSE.txt": "/LoginPageReact/static/js/2.8488a01c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/LoginPageReact/static/media/silhouette.a66bf514.jpg",
+    "static/media/App.css": "/LoginPageReact/static/media/universe.4a7f1dd2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5665334e.js",
+    "static/js/2.8488a01c.chunk.js",
+    "static/css/main.a181283d.chunk.css",
+    "static/js/main.faa97f33.chunk.js"
+  ]
+}
