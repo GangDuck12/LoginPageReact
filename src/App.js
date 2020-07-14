@@ -27,11 +27,6 @@ function App() {
   
   
   const [data,setData] = useState([
-    // {username:'widop',password:'aaa',email:'GangDuck12@gmail.com'}
-    // {username:2,password:2,email:2},
-    // {username:3,password:3,email:3},
-    // {username:'4',password:'4',email:'4'},
-    // {username:5,password:5,email:5}
   ]);
   
   const [userdata,setUserdata] =useState();
@@ -80,14 +75,10 @@ function App() {
 
     
   return (
-    // <Router>
       <div className="App">
         <div className="background-img"></div>
         {_contents}
-        {/* <Route exact path="/" component={LoginPage} />
-        <Route path="/signup" component={SingUp} /> */}
       </div>
-    // </Router>
   );
 }
 
